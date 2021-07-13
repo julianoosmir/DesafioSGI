@@ -1,0 +1,66 @@
+﻿@model IEnumerable<DesafioSGI.Models.Responsavel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Responsavel</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Cadastrar</a>
+</p>
+<table id="table" class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataDeNacimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cpf)
+            </th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataDeNacimento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cpf)
+                </td>
+                <td>
+                    <a class="btn btn-info" asp-action="Edit" asp-route-id="@item.responsavelId">Editar</a> |
+                    <a class="btn btn-warning" asp-action="Details" asp-route-id="@item.responsavelId">Detalhes</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.responsavelId">Deletar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<link href="https://unpkg.com/vanilla-datatables@latest/dist/vanilla-dataTables.min.css" rel="stylesheet" type="text/css">
+<script src="https://unpkg.com/vanilla-datatables@latest/dist/vanilla-dataTables.min.js" type="text/javascript"></script>
+
+
+<script>
+    var myTable = document.querySelector("#table");
+    var dataTable = new DataTable(myTable, {
+        searchable: false,
+        labels: {
+            placeholder: "pesquisar...", // The search input placeholder
+            perPage: "{select} itens por página", // per-page dropdown label
+            noRows: "sem dados", // Message shown when there are no search results
+            info: "Mostrando {start} a {end} de {rows} itens" //
+        },
+    });
+    console.log(dataTable);
+</script>

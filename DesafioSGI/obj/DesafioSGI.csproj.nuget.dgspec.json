@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juliano\\Desktop\\Nova pasta\\DesafioSGI\\DesafioSGI\\DesafioSGI.csproj": {}
+    "/home/juliano.hein/Downloads/DesafioSGI/DesafioSGI/DesafioSGI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juliano\\Desktop\\Nova pasta\\DesafioSGI\\DesafioSGI\\DesafioSGI.csproj": {
+    "/home/juliano.hein/Downloads/DesafioSGI/DesafioSGI/DesafioSGI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juliano\\Desktop\\Nova pasta\\DesafioSGI\\DesafioSGI\\DesafioSGI.csproj",
+        "projectUniqueName": "/home/juliano.hein/Downloads/DesafioSGI/DesafioSGI/DesafioSGI.csproj",
         "projectName": "DesafioSGI",
-        "projectPath": "C:\\Users\\juliano\\Desktop\\Nova pasta\\DesafioSGI\\DesafioSGI\\DesafioSGI.csproj",
-        "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juliano\\Desktop\\Nova pasta\\DesafioSGI\\DesafioSGI\\obj\\",
+        "projectPath": "/home/juliano.hein/Downloads/DesafioSGI/DesafioSGI/DesafioSGI.csproj",
+        "packagesPath": "/home/juliano.hein/.nuget/packages/",
+        "outputPath": "/home/juliano.hein/Downloads/DesafioSGI/DesafioSGI/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/juliano.hein/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,13 +48,17 @@
               "target": "Package",
               "version": "[5.0.7, )"
             },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.6, )"
+              "version": "[5.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -91,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

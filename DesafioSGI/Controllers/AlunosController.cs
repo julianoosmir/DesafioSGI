@@ -52,7 +52,8 @@ namespace DesafioSGI.Controllers
         {
             List<Responsavel> responsavels = await _context.responsaveis.ToListAsync();
             ViewData["responsavel"] = new SelectList(responsavels, "responsavelId","Nome");
-
+            ViewData["responsaveis"] = responsavels;
+            
             return View();
         }
 

@@ -7178,24 +7178,31 @@
     ]
   },
   "packageFolders": {
-    "/home/juliano.hein/.nuget/packages/": {}
+    "C:\\Users\\juliano\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/juliano.hein/Downloads/DesafioSGI/DesafioSGI/DesafioSGI.csproj",
+      "projectUniqueName": "C:\\Users\\juliano\\Documents\\dotnet\\vside\\DesafioSGI\\DesafioSGI.csproj",
       "projectName": "DesafioSGI",
-      "projectPath": "/home/juliano.hein/Downloads/DesafioSGI/DesafioSGI/DesafioSGI.csproj",
-      "packagesPath": "/home/juliano.hein/.nuget/packages/",
-      "outputPath": "/home/juliano.hein/Downloads/DesafioSGI/DesafioSGI/obj/",
+      "projectPath": "C:\\Users\\juliano\\Documents\\dotnet\\vside\\DesafioSGI\\DesafioSGI.csproj",
+      "packagesPath": "C:\\Users\\juliano\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juliano\\Documents\\dotnet\\vside\\DesafioSGI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/home/juliano.hein/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\juliano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7265,7 +7272,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
